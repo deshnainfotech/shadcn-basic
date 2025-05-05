@@ -28,7 +28,6 @@ function App() {
 
   const handleValidation = () => {
     const vals = Object.entries(formData);
-    console.log("vals: ", vals);
     for (const formVals of vals) {
       if (formVals[1].length < 1) {
         isFormValidated = true;
